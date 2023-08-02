@@ -1,4 +1,5 @@
-﻿namespace ChallengeDataTypesAndVariables
+// Practicing declaring primitive datatypes and writing them to the console 
+namespace ChallengeDataTypesAndVariables
 {
     internal class Program
     {
@@ -36,6 +37,7 @@
             string myText = "I control text";
             Console.WriteLine(myText);
             string myNumber = "24";
+            // Convert string value "24" to int datatype
             int myNumberFromString = int.Parse(myNumber);
             Console.WriteLine(myNumberFromString);
             Console.Read();
