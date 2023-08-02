@@ -1,0 +1,44 @@
+﻿namespace ChallengeDataTypesAndVariables
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            byte myByte = 255;
+            Console.WriteLine(myByte);
+            sbyte mySbyte = -128;
+            Console.WriteLine(mySbyte);
+            int myInt = 200000001;
+            Console.WriteLine(myInt);
+            uint myUint = 4000000001;
+            Console.WriteLine(myUint);
+            short myShort = -30000;
+            Console.WriteLine(myShort);
+            ushort myUshort = 6000;
+            Console.WriteLine(myUshort);
+            long myLong = 9000000000;
+            Console.WriteLine(myLong);
+            ulong myUlong = 18000000000;
+            Console.WriteLine(myUlong);
+            float myFloat = -3.1f;
+            Console.WriteLine(myFloat);
+            double myDouble = -1.7979;
+            Console.WriteLine(myDouble);
+            char myCharacter = 'B';
+            Console.WriteLine(myCharacter);
+            bool myBoolean = true;
+            Console.WriteLine(myBoolean);
+            string myString = "Brandon";
+            Console.WriteLine(myString);
+            decimal myDecimal = 3.14159265M;
+            Console.WriteLine(myDecimal);
+
+            string myText = "I control text";
+            Console.WriteLine(myText);
+            string myNumber = "24";
+            int myNumberFromString = int.Parse(myNumber);
+            Console.WriteLine(myNumberFromString);
+            Console.Read();
+        }
+    }
+}
