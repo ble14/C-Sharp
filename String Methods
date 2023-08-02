@@ -6,12 +6,13 @@
         {
             string name;
             Console.Write("Please enter your name and press enter:");
-            name = Console.ReadLine();
+            name = Console.ReadLine(); // Reads user input
             string upperName = String.Format("Upper case: {0}", name.ToUpper());
             string lowerName = String.Format("Lower case: {0}", name.ToLower());
             string trimmedName = String.Format("Name trimmed: {0}", name.Trim());
             string subStringName = String.Format("Substring name: {0}", name.Substring(0, 7));
 
+            // Outputs to console
             Console.WriteLine(upperName);
             Console.WriteLine(lowerName);
             Console.WriteLine(trimmedName);
